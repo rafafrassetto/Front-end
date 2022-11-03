@@ -1,0 +1,168 @@
+body {
+    background-color: #818181;
+}
+h1 {
+    color: red;
+    padding: 60px;
+}
+
+
+#topo {
+    
+    width: 100%;
+    height: 145px;
+    text-align: center;
+    padding-top: 30;
+}
+
+.logo {
+   width:22%; 
+   height: 200px;
+   text-align: center; 
+
+
+}
+
+#menu a{
+color: black;
+text-decoration: none;
+}
+
+
+
+#menu {
+    
+    text-align: center;
+    width: 100%;
+    height: 26%;
+    text-underline-position: auto;
+    font: caption;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 500;
+    font-stretch: normal;
+    font-size: 30;
+    line-height: normal;
+    font-family: cardo;
+    
+}
+
+#conteudo {
+   
+    text-align: center;
+    width: 100%;
+    height: 68%;
+    margin: 2;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    
+
+}
+
+
+
+#centro {
+    
+    text-align: center;
+    width: 100%;
+    height: 43%;
+    margin: 2;
+    margin-top: -34px;
+    margin-right: -67px;
+    margin-bottom: -34px;
+    margin-left: -525px;
+    
+
+}
+
+
+#descricao {
+
+
+   font-family: "Berlin sans FB Demi";
+   font-size:"18";
+    color:#838383;
+    padding: 30%;
+    
+
+}
+
+
+#rodape1 {
+   
+   text-align: center;
+
+}
+
+#rodape2 {
+   
+   text-align: center; 
+    width: 100%;
+    height: 50%;
+    
+
+}
+
+#rodape3 {
+   
+   text-align: left; 
+    width: 50%;
+    height: 30%;   
+    
+
+}
+
+#foto1 {
+   
+   text-align: center;
+
+  
+
+}
+
+#foto2 {
+   
+   text-align: center;
+   
+   
+
+}
+
+#meio {
+   
+   font-family: "Berlin sans FB Demi";
+   font-size:"18";
+   color:#838383;
+   padding: 10%;
+   text-align: center;
+   
+
+}
+
+
+#reservas {
+   
+    text-align: center;
+    width: 30%;
+    height: 30%;   
+
+}
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
