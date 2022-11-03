@@ -1,0 +1,128 @@
+<html lang="en"><head>
+<meta charset="UTF-7">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="sitecss.css" type="text/css">
+<link rel="sortcut icon" href="iconhotel.png" type="image/x-icon">
+<title> Reservas </title>
+</head>
+<body>
+<div id="topo">
+<img src="logohotel.png" href="#" alt="cima">
+</div><br> <br>
+
+<div id="menu">
+    <a href="homehotel.html">Home </a><a href="acomodacoes.html"> /Acomodações e Serviços / </a><a href="reservas.html">
+Reservas
+    </a>
+</div>
+
+
+<form id="formulario" class="rounded" method="post">
+<div id="descricao">
+<div id="dados">
+<legend>   Dados Do Hóspede :
+<br><br>
+Nome : <br>
+<input type="texte" name="nome" id="nome"><br><br>
+Endereço : <br>
+<input type="texte" name="endereco" id="endereco"><br><br>
+Cidade : <br>
+<input type="texte" name="cidade" id="cidade"><br><br>
+CEP : <br>
+<input type="texte" name="cep" id="cep"><br><br>
+Fone : <br>
+<input type="texte" name="fone" id="fone"><br><br>
+
+
+Estado : <br>
+<select id="estado" name="estado">
+ <option value="AC">Acre</option>
+    <option value="AP">Amapá</option>
+    <option value="AM">Amazonas</option>
+    <option value="BA">Bahia</option>
+    <option value="CE">Ceará</option>
+    <option value="DF">Distrito Federal</option>
+    <option value="ES">Espírito Santo</option>
+    <option value="GO">Goás</option>
+    <option value="MA">Maranhão</option>
+    <option value="MT">Mato Grosso</option>
+    <option value="MS">Mato Grosso do Sul</option>
+    <option value="MG">Minas Gerais</option>
+    <option value="PA">Pará</option>
+    <option value="PB">Paraíba</option>
+    <option value="PR">Paraná</option>
+    <option value="PE">Pernambuco</option>
+    <option value="PI">Piauí</option>
+    <option value="RJ">Rio de Janeiro</option>
+    <option value="RN">Rio Grande do Norte</option>
+    <option value="RS">Rio Grande do Sul</option>
+    <option value="RO">Rondônia</option>
+    <option value="RR">Roraima</option>
+    <option value="SC">Santa Catarina</option>
+    <option value="SP">São Paulo</option>
+    <option value="SE">Sergipe</option>
+    <option value="TO">Tocantins</option>
+    <option value="EX">Estrangeiro</option>
+</select>
+ <br><br>
+ Sexo : <br><br>
+<input type="radio" name="sexo" id="sexo">Masculino<br>
+<input type="radio" name="sexo" id="sexo">Feminino<br><br><br>
+E-mail : <br>
+<input type="texte" name="email" id="email"><br><br>
+</legend></div>
+<div id="dados2">
+
+ Dados da Hospedagem:
+
+<br><br>
+Viajando a :
+<input type="radio" name="radio" id="radio">Trabalho
+<input type="radio" name="lazer" id="lazer">Lazer
+<input type="radio" name="estudo" id="estudo">Estudo<br><br>
+Data check-in :
+<select id="checkin" name="checkin">
+ <option value="dia">Dia</option>
+ <option value="mes">Mês</option>
+ <option value="ano">Ano</option>
+</select>
+<br><br>
+Data check-out:
+<select id="checkout" name="checkout">
+  <option value="diaa">Dia</option>
+  <option value="mess">Mês</option>
+  <option value="anoo">Ano</option>
+</select>
+<br><br>
+Tipo Quarto:
+<input type="checkbox" name="quarto" id="quarto">Individual
+<input type="checkbox" name="quarto" id="quarto">Duplo
+<input type="checkbox" name="quarto" id="quarto">Triplo
+<br><br>
+Número de Adultos :
+<select id="nradultos" name="nradultos">
+ <option value="1">1</option>
+ <option value="2">2</option>
+ <option value="3">3</option>
+</select>
+<br><br>
+Número de Crianças :
+<select id="nrcriancas" name="nrcriancas">
+ <option value="1">1</option>
+ <option value="2">2</option>
+ <option value="3">3</option>
+</select>
+<br><br><br>
+Serviços Inclusos:
+<input type="checkbox" name="servicos" id="servicos">Café Da Manhã
+<input type="checkbox" name="servicos" id="servicos">Almoço
+<input type="checkbox" name="servicos" id="servicos">Jantar
+<br><br><br>  
+
+<input type="submit" name="enviar" id="enviar" value="Enviar">
+<input type="reset" name="limpar" id="limpar" value="Limpar">
+ 
+
+<br><br></div></div></form>
+
+</body></html>

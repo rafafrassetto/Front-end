@@ -1,0 +1,206 @@
+body {
+    background-color: #818181;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+#topo {
+    
+    width: 100%;
+    height: 145px;
+    text-align: center;
+    padding-top: 30;
+}
+
+.logo {
+   width:22%; 
+   height: 200px;
+   text-align: center; 
+
+
+}
+
+#menu a{
+color: black;
+text-decoration: none;
+}
+
+
+
+#menu {
+    
+    text-align: center;
+    width: 100%;
+    height: 26%;
+    text-underline-position: auto;
+    font: caption;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 500;
+    font-stretch: normal;
+    font-size: 30;
+    line-height: normal;
+    font-family: AdobeGothicStdB;
+    
+}
+
+#conteudo {
+   
+    text-align: center;
+    width: 100%;
+    height: 68%;
+    margin: 2;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    
+
+}
+
+
+
+#centro {
+    
+    text-align: center;
+    width: 100%;
+    height: 43%;
+    margin: 2;
+    margin-top: -36px;
+    margin-right: -65px;
+    margin-bottom: -30px;
+    margin-left: -360px;
+    
+
+}
+
+#outrocentro {
+
+    text-align: left;
+    height: 89%;
+    margin: 2;
+    margin-top: -275px;
+    margin-right: -56px;
+    margin-bottom: -17px;
+    margin-left: 737px;
+    min-width: 8%;
+}
+    
+
+
+#local {
+    
+    font-size: 30;
+    line-height: normal;
+    font-family: cardo;
+    text-align: center;
+
+}
+
+#conteudo2 {
+   
+    text-align: center;
+    width: 100%;
+    height: 68%;
+    margin-top: -22px;
+    margin-left: -378px;
+    font-size: 20px;
+    
+
+}
+
+#aco {
+   
+    text-align: center;
+    width: 100%;
+    height: 4%;
+    margin: 2;
+    margin-top: -387px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+
+}
+
+#conteudo3 {
+   
+    text-align: center;
+    width: 100%;
+    height: 68%;
+    margin-top: 700px;
+    margin-left: -502px;
+    font-size: 20px;
+
+}
+
+#aco2 {
+   
+    text-align: center;
+    width: 100%;
+    height: 4%;
+    margin: 2;
+    margin-top: -387px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+
+}
+
+#dadoshospede {
+    
+    text-align: center;
+    width: 100%;
+    height: 19%;
+    font-size: 30;
+    font-family: cardo;
+    
+}
+
+#dados {
+    
+    text-align: center;
+    font-size: 19px;
+    font-family: cardo;
+    margin-left: -902px;
+    
+}
+
+#formulario {
+    
+    display: block;
+    margin-top: 0em;
+    margin-block-end: 1em;
+    
+}
+#dados2 {
+    text-align: center;
+    font-size: 19px;
+    font-family: cardo;
+    margin-left: 345px;
+    margin-top: -620px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
