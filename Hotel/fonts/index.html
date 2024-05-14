@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css & Fontawesome -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Js Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <title>Hotéis para Explorar Atenas | Herói de Demonstração</title>
+</head>
+<body>
+    <div id="wrapper">
+
+        <!-- Cabeçalho -->
+        <header class="mobile-header">
+            <div>
+                <!-- Ícone do Menu Hambúrguer -->
+                <div id="mobile-menu-icon">                   
+                    <div class="hamburger-icon">
+                        <input type="checkbox" class="toggle" onclick="hamMenu()">
+                        <div></div>
+                    </div>
+                </div>
+
+                <!-- Logotipo -->
+                <div id="logo">
+                    <a href="index.html"><img src="images/logo_demo.jpg" alt="logo" width="115px" height="110px"></a>
+                </div>
+
+                <!-- Menu Principal -->
+                <nav id="main-menu-wrapper" class="mobile-menu">
+                    <ul class="main-menu">
+                        <li class="active"><a href="index.html">Início</a></li>
+                        <li><a href="#">Nossos Hotéis <em class="fa fa-angle-down"></em></a></li>
+                        <li><a href="#">Explore Nossos Bairros</a></li>
+                        <li><a href="#">Galeria de Fotos</a></li>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Contate-nos</a></li>
+                    </ul>
+
+                    <!-- Menu Secundário -->
+                    <ul class="second-menu">
+                        <li>Número de Telefone</li>
+                        <li><a href="tel:+302101234567">+30 210 1234567</a></li>
+                    </ul>
+                </nav>
+                <!-- Idiomas -->
+                <div id="language-menu">
+                    <ul>
+                        <li class="active"><a href="#">PT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!-- Slider -->
+        <section id="slider">
+            <div class="slides">
+                <div class="slide active" id="fix">
+                    <div>
+                        <div class="sl-img" style="background: url(images/fix-image.jpg)no-repeat center center/cover;"></div>
+                        <div class="sl-breadcrumb"><a href="#">Cidade de Atenas</a> / <a href="#">Fix</a></div>
+                    </div>
+                </div>
+                <div class="slide" id="monastiraki">
+                    <div>
+                        <div class="sl-img" style="background: url(images/nlh-monastiraki.jpg)no-repeat center center/cover;"></div>
+                        <div class="sl-breadcrumb"><a href="#">Cidade de Atenas</a> / <a href="#">Monastiraki</a></div>
+                    </div>
+                </div>
+                <div class="slide" id="keramikos">
+                    <div>
+                        <div class="sl-img" style="background: url(images/kerameikos-2.jpg)no-repeat center center/cover;"></div>
+                        <div class="sl-breadcrumb"><a href="#">Cidade de Atenas</a> / <a href="#">Keramikos</a></div>
+                    </div>
+                </div>
+                <div class="slide" id="mati">
+                    <div>
+                        <div class="sl-img" style="background: url(images/spare_slide.jpg)no-repeat center center/cover;"></div>
+                        <div class="sl-breadcrumb"><a href="#">Cidade de Atenas</a> / <a href="#">Mati</a></div>
+                    </div>
+                </div>
+                <div class="sl-content">
+                    <div class="content-inner">
+                        <h1 class="sl-text">Localizado no<br> coração de Atenas,<br> o <strong>Hotel</strong><br> é o lugar para estar</h1>
+                        <ul class="sl-title">
+                            <li>
+                                <input type="checkbox" id="fix_title" name="fix" class="hotel-item"/>
+                                <label for="fix_title">Fix</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="monastiraki_title" name="monastiraki" class="hotel-item"/>
+                                <label for="monastiraki_title">Monastiraki</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="keramikos_title" name="keramikos" class="hotel-item"/>
+                                <label for="keramikos_title">Keramikos</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="mati_title" name="mati" class="hotel-item"/>
+                                <label for="mati_title">Mati</label>
+                            </li>
+                        </ul>
+
+                        <!-- Calendário -->
+                        <div class="sl-calendar">
+                            <div class="dates calendar-input">
+                                <span class="check-in-out">Check-in & Check out</span>
+                                <input type="text" name="datepicker" value="Sex, 02 Out 2020" id="datepicker">
+                            </div>
+                            <div class="guests calendar-input">
+                                <span class="check-in-out">Hóspedes</span>
+                                <span class="guest-no">1</span>
+                            </div>
+                            <ul class="guests-select">
+                            </ul>
+                            <button type="button" class="check-rates-btn">Verificar Preços</button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!-- Inferior do Slider -->
+            <div id="sl-bottom">
+                <div class="inner-content">
+                    <div class="sl-bottom-left">
+                        <div class="gray-number">
+                            <span class="inner number">4</span>
+                            <span class="outer number">4</span>
+                        </div>
+                        <h3>HOTÉIS PARA EXPLORAR ATENAS</h3>
+                    </div>
+                    <div class="sl-bottom-right">
+                        <div class="buttons">
+                            <img src="images/arrow-left.png" alt="arrow-left" class="left">
+                            <img src="images/arrow-right.png" alt="arrow-right" class="right">
+                        </div>
+                        <div class="sl-numbers">
+                            <span>01</span>
+                            <span class="sl-txt-smaller">/04</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+ 
+<script src="script.js"></script>
+<script>
+    $( function() {
+        $( "#datepicker" ).daterangepicker({
+            timePicker: true,
+            startDate: moment().startOf('hour'),
+            endDate: moment().startOf('hour').add(32, 'hour'),
+            locale: {
+                format: 'DD/M/Y'
+            }
+        });
+    });
+</script>
+</body>
+</html>
